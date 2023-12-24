@@ -6,7 +6,7 @@ public enum ClothesSizes {
         public String getDescription () {
             return "детский размер";
         }
-    },XS(34),S(36),M(38),L(40);
+    },XS(34),S(36),M(38),L(40), ONESIZE(0);
 
     private final int euroSize;
 

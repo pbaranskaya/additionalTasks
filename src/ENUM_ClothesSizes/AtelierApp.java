@@ -13,9 +13,25 @@ package ENUM_ClothesSizes;
 // на вход которых будет поступать массив, содержащий все типы одежды. Метод одетьЖенщину выводит на консоль всю
 // информацию о женской одежде. То же самое для метода одетьМужчину.
 
+import static ENUM_ClothesSizes.ClothesSizes.*;
+
 public class AtelierApp {
     public static void main(String[] args) {
 
+        Atelier atelier = new Atelier();
+
+        Clothes pants = new Pants("Штаны", L, 32, "черные");
+        Clothes skirt = new Skirt("Юбка", XXS, 45, "желтая");
+        Clothes tie = new Tie("Галстук", ONESIZE, 78, "синий");
+        Clothes tShirt = new TShirt("Футболка", M, 5.5, "белая");
+
+        atelier.add(pants);
+        atelier.add(skirt);
+        atelier.add(tie);
+        atelier.add(tShirt);
+
+        atelier.dressWoman();
+        atelier.dressMan();
 
     }
 }
