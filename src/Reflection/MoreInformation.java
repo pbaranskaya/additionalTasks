@@ -10,5 +10,5 @@ import java.lang.annotation.Target;
 
 public @interface MoreInformation {
     String country();
-    String nameOfOwner();
+    String nameOfOwner();//
 }

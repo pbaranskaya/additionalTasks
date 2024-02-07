@@ -1,4 +1,4 @@
-package Reflection;
+package Reflection;//
 @MoreInformation(country = "Russia", nameOfOwner = "Alina")
 
 public class Tiger extends Cat {

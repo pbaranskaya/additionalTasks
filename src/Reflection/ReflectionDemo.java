@@ -22,7 +22,7 @@ package Reflection;
 // + Создать свою аннотацию, добавить 2 переменные.
 // + Добавить аннотацию в класс Cat.
 // + Добавить аннотацию в класс Tiger.
-// + Вывести на экран значение из аннотации.
+// + Вывести на экран значение из аннотации.//
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

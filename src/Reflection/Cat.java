@@ -20,6 +20,6 @@ public class Cat {
     }
 
     protected void sleep(){
-        System.out.println("sleeps");
+        System.out.println("sleeps"); //
     }
 }
